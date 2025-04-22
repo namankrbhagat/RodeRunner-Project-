@@ -11,7 +11,7 @@ const AuthLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <div className="w-10 h-10 rounded-md bg-primary-600 flex items-center justify-center">
               <Truck size={24} className="text-white" />
             </div>
-            <span className="text-2xl font-bold text-white">RodeRunner</span>
+            <span className="text-2xl font-bold text-white">RoadRunner</span>
           </div>
           
           {children}
@@ -32,7 +32,7 @@ const AuthLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <h2 className="text-3xl font-bold text-white mb-4">Intelligent Fleet Management</h2>
             <p className="text-slate-300 mb-6">
               Optimize your logistics operations with real-time tracking, advanced analytics, 
-              and predictive insights. RodeRunner gives you complete visibility and control 
+              and predictive insights. RoadRunner gives you complete visibility and control 
               over your entire fleet.
             </p>
             <div className="space-y-4">

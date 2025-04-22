@@ -23,7 +23,7 @@ import AnalyticsCard from '../components/analytics/AnalyticsCard';
 const mockDriverData = {
   id: 'D-101',
   name: 'John Smith',
-  email: 'john.smith@RodeRunner.com',
+  email: 'john.smith@RoadRunner.com',
   phone: '(312) 555-7890',
   location: 'Chicago, IL',
   address: '123 Fleet Street, Chicago, IL 60601',

@@ -19,7 +19,7 @@ const Login: React.FC = () => {
     try {
       // For demo, we'll simulate a successful login
       await new Promise(resolve => setTimeout(resolve, 1000));
-      await login({ email, name: 'Naman Bhagat' });
+      await login({ email, name: 'Admin ' });
       navigate('/dashboard');
     } catch (err) {
       setError('Invalid email or password');
@@ -58,7 +58,7 @@ const Login: React.FC = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="block w-full pl-10 pr-3 py-2.5 border border-slate-700 bg-slate-800 rounded-md text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-                placeholder="Naman@roderunner.com"
+                placeholder="Admin@Roadrunner.com"
                 required
               />
             </div>

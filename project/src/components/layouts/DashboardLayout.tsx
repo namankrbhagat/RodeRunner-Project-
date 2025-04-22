@@ -76,7 +76,7 @@ const DashboardLayout = () => {
               <div className="w-8 h-8 rounded-md bg-primary-600 flex items-center justify-center">
                 <Truck size={20} className="text-white" />
               </div>
-              <span className="text-xl font-bold text-white">RodeRunner</span>
+              <span className="text-xl font-bold text-white">RoadRunner</span>
             </div>
             <button 
               className="p-1 rounded-md hover:bg-slate-800 lg:hidden"
@@ -103,8 +103,8 @@ const DashboardLayout = () => {
                 {user?.name?.charAt(0) || 'U'}
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-white truncate">{user?.name || 'Naman Bhagat'}</p>
-                <p className="text-xs text-slate-400 truncate">{user?.email || 'Naman@RodeRunner.com'}</p>
+                <p className="text-sm font-medium text-white truncate">{user?.name || 'Admin '}</p>
+                <p className="text-xs text-slate-400 truncate">{user?.email || 'Admin@RoadRunner.com'}</p>
               </div>
               <button 
                 className="p-1.5 rounded-md text-slate-400 hover:bg-slate-800 hover:text-white"
